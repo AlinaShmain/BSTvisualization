@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.tree-layout {
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.level {
+  width: 100%;
+  height: 25px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.node {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  position: absolute;
+  background-color: blue;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.error {
+  height: 30px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+  line-height: 30px;
+}
+
+.edge {
+  border: none;
+  height: 2px;
+  margin: 0;
+  color: #ff0000;
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+}
